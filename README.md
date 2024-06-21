@@ -74,9 +74,8 @@ Welcome to *Tocantins Guide v1*, a Java project demonstrating the implementation
 3. **Output**: Displays the shortest path found and the total distance in a user-friendly format using ASCII art.
 
 #### Example Output
-div align="center"
-img src="![Diagrama GRAFO JAVA drawio (1)](https://github.com/fernandagmarcal/TocantinsGuide/assets/144964380/b1d54e90-ed80-4e28-8c4d-18b06b5f949c)
-" width="0px" /
+
+![Diagrama GRAFO JAVA drawio (1)](https://github.com/fernandagmarcal/TocantinsGuide/assets/144964380/b1d54e90-ed80-4e28-8c4d-18b06b5f949c)
 
 ```
         _______      
