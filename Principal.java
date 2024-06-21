@@ -4,6 +4,18 @@ public class Principal {
     static int menorDistancia = Integer.MAX_VALUE;
     static String menorCaminho = "";
 
+
+    // ADICIONANDO CORES NO TERMINAL
+    public static final String RESET = "\033[0m";  // Text Reset
+    public static final String RED = "\033[0;31m";     // RED
+    public static final String GREEN = "\033[0;32m";   // GREEN
+    public static final String YELLOW = "\033[0;33m";  // YELLOW
+    public static final String BLUE = "\033[0;34m";    // BLUE
+    public static final String PURPLE = "\033[0;35m";  // PURPLE
+    public static final String CYAN = "\033[0;36m";    // CYAN
+    public static final String WHITE = "\033[0;37m";   // WHITE
+
+
     public static void main(String[] args) {
         
         No BrejinhoDeNazare = new No();
@@ -40,7 +52,7 @@ public class Principal {
         currentPath.add(saida);
         percorre(saida, destino, 0, saida.conteudo, currentPath);
 
-        System.out.println("\n" + //
+        System.out.println(CYAN + "\n" + //
                         "\r\n" + //
                         "        _______      \r\n" + //
                         "       //  ||\\ \\         _____                     _   _              ____       _     _      \r\n" + //
@@ -51,10 +63,10 @@ public class Principal {
                         "_____   _____   ______   ______   ______   ______   ______   ______   _____   ______   _______   ____\r\n" + //
                         "_____________________________________________________________________________________________________\r\n" + //
                         "\r\n" + //
-                        "*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.by Fernanda and Julia Couto.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*\r\n" + //
+                        PURPLE + "*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.by Fernanda and Julia Couto.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*\r\n" + //
                         ">> Versão 1.0");
-        System.out.println("\nAqui está a menor trajetória em terra firme para ser feita\nsaindo de " + saida.conteudo + " para chegar em " + destino.conteudo + "!" + "\n\n" + menorCaminho);
-        System.out.println("\nDistância total a percorrer em quilômetros: " + menorDistancia + "km" + "\n");
+        System.out.println(GREEN + "\nAqui está a menor trajetória em terra firme para ser feita\nsaindo de " + saida.conteudo + " para chegar em " + destino.conteudo + "!" + "\n\n" + menorCaminho);
+        System.out.println(YELLOW + "\nDistância total a percorrer em quilômetros: " + menorDistancia + "km" + "\n");
     }
 
     static void percorre(No atual, No destino, int distanciaTotal, String caminho, ArrayList<No> currentPath) {
