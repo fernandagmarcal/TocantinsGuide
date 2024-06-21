@@ -22,7 +22,8 @@ Bem-vindo ao *Tocantins Guide v1*, um projeto em Java que demonstra a implementa
 
 #### Exemplo de Saída
 
-https://github.com/fernandagmarcal/TocantinsGuide/assets/144964380/6397a0ef-6fd7-4ef6-83d6-7c335d704543
+![Diagrama GRAFO JAVA drawio (1)](https://github.com/fernandagmarcal/TocantinsGuide/assets/144964380/b1d54e90-ed80-4e28-8c4d-18b06b5f949c)
+
 
 
 ```
