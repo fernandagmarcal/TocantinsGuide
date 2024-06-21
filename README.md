@@ -1,6 +1,6 @@
 # TocantinsGuide
-## PORTUGUÊS/PORTUGUESE
-### Tocantins Guide v1: Java Implementation of a Directed Graph for Route Planning
+#### PORTUGUÊS/PORTUGUESE
+### Tocantins Guide v1: Implementação em Java de um Grafo Direcionado para Planejamento de Rotas
 
 #### Descrição do Repositório
 
@@ -48,7 +48,7 @@ Estamos trabalhando para lançar futuras versões deste projeto com novos recurs
 
 *Coming soon...*
 
-## INGLÊS/ENGLISH
+#### INGLÊS/ENGLISH
 ### Tocantins Guide v1: Java Implementation of a Directed Graph for Route Planning
 
 #### Repository Description
